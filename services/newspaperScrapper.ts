@@ -1,6 +1,6 @@
 import axios, { Axios } from 'axios';
-import Newspaper from "./newspaper";
-import Article from './article';
+import Newspaper from "../model/newspaper";
+import Article from '../model/article';
 import cheerio from 'cheerio';
 
 export default class NewspaperScrapper {
